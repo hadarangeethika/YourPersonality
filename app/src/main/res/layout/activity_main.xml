@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/colorPrimaryDark">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/head"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:background="@drawable/header"
+        />
+    <TextView
+        android:id="@+id/tvAppName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="YourPersonality"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="30dp"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:textColor="@color/colorWhite"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:id="@+id/textViewM"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:text="Large text"
+            android:textColor="@color/colorWhite"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="24sp"/>
+
+        <RadioGroup
+            android:id="@+id/radioGroupM"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:layout_weight="0.04"
+            >
+
+            <RadioButton
+                android:id="@+id/radioM1"
+                android:padding="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Strongly Agree"
+                android:textSize="20sp"
+                android:background="@drawable/radio_selector"
+                android:textColor="@drawable/text_color"
+                android:button="@android:color/transparent"
+                android:textAlignment="center"
+                />
+
+            <RadioButton
+                android:id="@+id/radioM2"
+                android:padding="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Agree"
+                android:textSize="20sp"
+                android:background="@drawable/radio_selector"
+                android:textColor="@drawable/text_color"
+                android:button="@android:color/transparent"
+                android:textAlignment="center"
+                />
+
+            <RadioButton
+                android:id="@+id/radioM3"
+                android:padding="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="No Idea"
+                android:textSize="20sp"
+                android:background="@drawable/radio_selector"
+                android:textColor="@drawable/text_color"
+                android:button="@android:color/transparent"
+                android:textAlignment="center"
+                />
+
+
+            <RadioButton
+                android:id="@+id/radioM4"
+                android:padding="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Disagree"
+                android:textSize="20sp"
+                android:background="@drawable/radio_selector"
+                android:textColor="@drawable/text_color"
+                android:button="@android:color/transparent"
+                android:textAlignment="center"
+                />
+
+
+            <RadioButton
+                android:id="@+id/radioM5"
+                android:padding="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Strongly Disagree"
+                android:textSize="20sp"
+                android:background="@drawable/radio_selector"
+                android:textColor="@drawable/text_color"
+                android:button="@android:color/transparent"
+                android:textAlignment="center"
+                />
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Next"
+            android:background="@drawable/bg_ui"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

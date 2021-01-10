@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">YourPersonality</string>
+    <string name="login_text1">Have an account already?</string>
+    <string name="login_text2">Login</string>
+    <string name="dashboard_text1">YourPersonality</string>
+    <string name="dashboard_text2">Dashboard</string>
+    <string name="dashboard_text3">What is MBTI?</string>
+    <string name="dashboard_text4">Personality Test</string>
+    <string name="dashboard_text5">About 16 Personalities</string>
+    <string name="dashboard_text6">My Saved Results</string>
+    <string name="dashboard_text7">Past Personality Test Results</string>
+    <string name="dashboard_text8">Self Report Inventory</string>
+    <string name="dashboard_text9">Measure Your Personality</string>
+    <string name="dashboard_text10">ISTJ, INFP, ENFJ, etc..</string>
+    <string name="mbti_description">The Myers–Briggs Type Indicator (MBTI) is an introspective self-report questionnaire indicating differing psychological preferences in how people perceive the world and make decisions. The original versions of the MBTI were constructed by two Americans, Katharine Cook Briggs and her daughter Isabel Briggs Myers. The MBTI is based on the conceptual theory proposed by Swiss psychiatrist Carl Jung, who had speculated that people experience the world using four principal psychological functions – sensation, intuition, feeling, and thinking – and that one of these four functions is dominant for a person most of the time. The four categories are Introversion/Extraversion, Sensing/Intuition, Thinking/Feeling, Judging/Perception. Each person is said to have one preferred quality from each category, producing 16 unique types. </string>
+</resources>
